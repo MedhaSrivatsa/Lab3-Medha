@@ -49,7 +49,8 @@ public class VM {
 					Config.getVmwareLogin(), 
 					Config.getVmwarePassword(), 
 					true);
-		} catch (RemoteException | MalformedURLException e) {
+		} 
+		catch (Exception e) {
 			e.printStackTrace();
 		}
         

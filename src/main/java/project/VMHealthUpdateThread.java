@@ -64,7 +64,6 @@ public class VMHealthUpdateThread implements Runnable {
 		}
 	}
 
-	@Override
 	public void run() {
 
 		try {
